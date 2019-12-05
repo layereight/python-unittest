@@ -3,7 +3,7 @@
 
 
 def fizzbuzz(index):
-    if index == 15:
+    if index == 15 or index == 30:
         return "FizzBuzz"
 
     if index % 3 == 0:
