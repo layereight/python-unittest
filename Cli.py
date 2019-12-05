@@ -17,3 +17,7 @@ def fizzbuzz(index):
         result_string = str(index)
 
     return result_string
+
+if "__main__" == __name__:
+    for i in range(1, 101):
+        print(fizzbuzz(i))
