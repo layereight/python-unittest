@@ -3,13 +3,10 @@
 
 
 def fizzbuzz(index):
-    if index == 3:
+    if index == 3 or index == 6:
         return "Fizz"
 
     if index == 5:
         return "Buzz"
-
-    if index == 6:
-        return "Fizz"
 
     return str(index)
