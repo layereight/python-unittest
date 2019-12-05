@@ -31,6 +31,12 @@ class SimpleTestCase(unittest.TestCase):
         result = fizzbuzz(6)
         self.assertEqual("Fizz", result)
 
+    def test_nine(self):
+        result = fizzbuzz(9)
+        self.assertEqual("Fizz", result)
+
+
+
 
 
 
