@@ -19,6 +19,10 @@ class SimpleTestCase(unittest.TestCase):
         result = fizzbuzz(3)
         self.assertEqual("Fizz", result)
 
+    def test_four(self):
+        result = fizzbuzz(4)
+        self.assertEqual("4", result)
+
 
 if "__main__" == __name__:
     unittest.main()
