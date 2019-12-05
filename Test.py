@@ -17,6 +17,7 @@ class SimpleTestCase(unittest.TestCase):
         [7, "7"],
         [8, "8"],
         [9, "Fizz"],
+        [10, "Buzz"],
     ]
 
     def test_TestCases(self):
