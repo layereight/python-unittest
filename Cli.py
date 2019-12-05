@@ -3,14 +3,17 @@
 
 
 def fizzbuzz(index):
-    if index == 15 or index == 30 or index == 45:
-        return "FizzBuzz"
+
+    result_string = ""
 
     if index % 3 == 0:
-        return "Fizz"
+        result_string = "Fizz"
 
     if index % 5 == 0:
-        return "Buzz"
+        result_string += "Buzz"
+        return result_string
 
+    if result_string == "":
+        result_string = str(index)
 
-    return str(index)
+    return result_string
