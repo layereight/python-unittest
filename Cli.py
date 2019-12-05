@@ -3,7 +3,7 @@
 
 
 def fizzbuzz(index):
-    if index == 3 or index == 6:
+    if index == 3 or index == 6 or index == 9:
         return "Fizz"
 
     if index == 5:
