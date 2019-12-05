@@ -4,4 +4,4 @@
 #print("What's up!")
 
 def fizzbuzz(index):
-    return "bla"
+    return "1"
