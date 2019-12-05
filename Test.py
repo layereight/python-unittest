@@ -7,9 +7,13 @@ from Cli import fizzbuzz
 
 class SimpleTestCase(unittest.TestCase):
 
-    def test_this(self):
+    def test_one(self):
         result = fizzbuzz(1)
         self.assertEqual("1", result)
+
+    def test_two(self):
+        result = fizzbuzz(2)
+        self.assertEqual("2", result)
 
 
 if "__main__" == __name__:
