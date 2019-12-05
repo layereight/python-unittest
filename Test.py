@@ -15,6 +15,10 @@ class SimpleTestCase(unittest.TestCase):
         result = fizzbuzz(2)
         self.assertEqual("2", result)
 
+    def test_three(self):
+        result = fizzbuzz(3)
+        self.assertEqual("Fizz", result)
+
 
 if "__main__" == __name__:
     unittest.main()
