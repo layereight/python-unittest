@@ -9,4 +9,7 @@ def fizzbuzz(index):
     if index == 5:
         return "Buzz"
 
+    if index == 6:
+        return "Fizz"
+
     return str(index)
