@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 import unittest
@@ -43,10 +43,10 @@ class SimpleTestCase(unittest.TestCase):
 
     def test_TestCases(self):
         for testCase in self.testCases:
-            result = fizzbuzz(testCase[0])
-            self.assertEqual(testCase[1], result)
+            with self.subTest(testCase):
+                result = fizzbuzz(testCase[0])
+                self.assertEqual(testCase[1], result)
 
 
 if "__main__" == __name__:
-    unittest.main()
-
+    unittest.main(verbosity=4)
