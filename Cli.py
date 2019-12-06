@@ -3,20 +3,16 @@
 
 
 def fizzbuzz(index):
-
-    result_string = ""
+    if index % 15 == 0:
+        return "FizzBuzz"
 
     if index % 3 == 0:
-        result_string = "Fizz"
+        return "Fizz"
 
     if index % 5 == 0:
-        result_string += "Buzz"
-        return result_string
+        return "Buzz"
 
-    if result_string == "":
-        result_string = str(index)
-
-    return result_string
+    return str(index)
 
 
 if "__main__" == __name__:
